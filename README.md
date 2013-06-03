@@ -1,4 +1,4 @@
-# PayPal Android SDK PhoneGap Plug-in
+# PayPal Android SDK PhoneGap Plugin
 
 
 Integration
