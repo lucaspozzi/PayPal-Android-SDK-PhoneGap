@@ -1,4 +1,4 @@
-# PayPal Android SDK PhoneGap Plugin
+# PayPal Android SDK PhoneGap Plug-in
 
 
 Integration
@@ -10,7 +10,15 @@ Integration
    required files, acknowledgments and `AndroidManifest.xml` modifications to your app.
 3. Add `PayPalMobilePGPlugin.java` to your project, in `src/com/paypal/android/sdk/phonegap`.
 4. Copy `PayPalMobilePGPlugin.js` to your project's `www/js` folder.
-5. Add the following to `config.xml`, under the `plugins` tag:
+5. Add the following to `res/xml/config.xml` for PhoneGap version 3.0+:
+
+    ```xml
+     <feature name="PayPalMobile">
+       <param name="android-package" value="com.paypal.android.sdk.phonegap.PayPalMobilePGPlugin" />
+     </feature>
+    ```
+
+   for older versions under the `plugins` tag:
     
     ```xml
     <plugin name="PayPalMobile" value="com.paypal.android.sdk.phonegap.PayPalMobilePGPlugin" />
