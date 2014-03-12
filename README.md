@@ -1,6 +1,9 @@
 # PayPal Android SDK PhoneGap Plug-in
 
 
+# UPDATE
+This repository has been deprecated and will be deleted soon. For PayPal Mobile SDK 2.0 downloads and support, visit the new repo at github.com/paypal/paypal-cordova-plugin
+
 Integration
 -----------
 0. Download the [PayPal Android SDK](https://github.com/paypal/PayPal-Android-SDK).
